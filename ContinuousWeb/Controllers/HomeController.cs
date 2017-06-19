@@ -15,10 +15,10 @@ namespace ContinuousWeb.Controllers
 
         public IActionResult About()
         {
-            throw new NotImplementedException();
-            //ViewData["Message"] = "Your application description page.";
+            //throw new NotImplementedException();
+            ViewData["Message"] = "Your application description page.";
 
-           // return View();
+           return View();
         }
 
         public IActionResult Contact()
